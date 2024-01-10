@@ -355,7 +355,7 @@
  }
 
 
- #fixedimage{
+ .fixedimage{
      height: 30vw;
      width: 24vw;
      border-radius: 15px;
