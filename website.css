@@ -420,10 +420,9 @@
 
  #footer-div {
      position: relative;
-     border-radius: 2px;
-     right: 58px;
-     height: 20vh;
-     width: 110%;
+     border-radius: 0px;
+     height: 100px;
+     width: 100px;
      background: linear-gradient(#FE320A, #fe3f0a);
      filter: blur(25px);
      animation-name: footeranime;
@@ -437,15 +436,7 @@
 
 
  @keyframes footeranime {
-     from {
-
-         transform: translate(20%, 50%) skewX(30deg) skewY(10deg) scale(4);
-     }
-
-     to {
-
-         transform: translate(20%, 20%) skewX(60deg) skewY(10deg) scale(4);
-     }
+   
  }
 
  #footer-bottom {
